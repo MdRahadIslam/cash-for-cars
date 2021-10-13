@@ -1,0 +1,422 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+header{
+	background: url(../image/banner.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	padding: 25px 0px;
+
+}
+
+.container{
+
+}
+
+.logo{
+	text-align: center;
+}
+
+.logo img{
+	width: 200px;
+}
+
+.menu{
+	padding: 8px 0px;
+}
+
+.menu ul{
+	list-style: none;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.menu ul li {
+	display: inline-block;
+}
+
+.menu ul li a {
+	text-decoration: none;
+    color: white;
+    width: 150px;
+}
+
+.banner-main{
+	padding: 60px 0px;
+    color: white;
+}
+
+.banner-main h1{
+	background: #343533cc;
+    display: inline-block;
+    padding: 4px 10px;
+    text-align: center;
+}
+
+.banner-main p{
+	font-size: 15px;
+}
+
+.banner-main span{
+	width: 5%;
+    display: block;
+    border-bottom: 1px solid white;
+    margin: 13px 0px;
+}
+
+.custom-btn{
+	background: transparent;
+    text-transform: uppercase;
+    color: white;
+    padding: 5px 10px;
+    border: 1px solid white;
+    margin-bottom: 120px;
+    margin-top: 20px;
+
+}
+
+
+
+@media (max-width: 500px) {
+    .header-inner-content p{
+        width: 100%;
+        color: aliceblue;
+        opacity: 0.8;
+    }
+
+    .custom-logo{
+        text-align: center;
+        margin-bottom: 5%;
+    }
+
+    .header-inner-content{
+        text-align: center;
+    }
+
+    .header-inner-content span{
+        margin: 5% auto 20%;
+    }
+
+}
+
+@media (min-width: 501px) and (max-width: 766px) {
+
+    .header-inner-content p{
+        width: 100%;
+        color: aliceblue;
+        opacity: 0.8;
+    }
+
+    .custom-logo{
+        text-align: center;
+        margin-bottom: 5%;
+    }
+
+    .header-inner-content{
+        text-align: center;
+    }
+
+    .header-inner-content span{
+        margin: 5% auto 20%;
+    }
+
+}
+
+@media (min-width: 768.01px) and (max-width: 992px) {
+    
+    .header-inner-content p{
+        width: 100%;
+        color: aliceblue;
+        opacity: 0.8;
+    }
+
+    .custom-logo{
+        text-align: center;
+        margin-bottom: 5%;
+    }
+
+    .header-inner-content{
+        text-align: center;
+    }
+
+    .header-inner-content span{
+        margin: 5% auto 20%;
+    }
+
+}
+
+@media (min-width:992.01px) and (max-width:1200px) {
+
+    .header-inner-content p{
+        width: 100%;
+        color: aliceblue;
+        opacity: 0.8;
+    }
+
+    .custom-logo{
+        text-align: center;
+        margin-bottom: 5%;
+    }
+
+    .header-inner-content{
+        text-align: center;
+    }
+
+    .header-inner-content span{
+        margin: 5% auto 20%;
+    }
+}
+
+/* welcome section */
+
+.welcome-section{
+    background: #f6f6f6;
+    padding: 5% 0;
+}
+
+.cst-section h1{
+    width: 100%;
+    font-size: 35px;
+    color: #28282e;
+    margin-bottom: 5%;
+    font-weight: 600;
+}
+.cst-section span{
+    display: block;
+    width: 10%;
+    border-bottom: 1px solid #28282e;
+    margin: 0% 0% 10%;
+}
+.cst-section p{
+    color: #28282e;
+    opacity: 0.8;
+    width: 85%;
+    font-size: 14px;
+}
+
+.cst-img{}
+
+.cst-img img{
+    margin-bottom: -202px;
+    margin-top: 82px;
+}
+
+/* welcome section media*/
+
+@media (max-width: 500px){
+    .cst-section{
+        text-align: center;
+    }
+
+    .cst-section p{
+        color: #28282e;
+        opacity: 0.8;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .cst-section span{
+        margin: 0% auto 10%;
+    }
+
+    .cst-img img{
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+}
+
+@media (min-width: 501px) and (max-width: 766px) {
+
+    .cst-section{
+        text-align: center;
+    }
+
+    .cst-section p{
+        color: #28282e;
+        opacity: 0.8;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .cst-section span{
+        margin: 0% auto 10%;
+    }
+
+    .cst-img img{
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+}
+
+@media (min-width: 768.01px) and (max-width: 992px) {
+    
+    .cst-section{
+        text-align: center;
+    }
+
+    .cst-section p{
+        color: #28282e;
+        opacity: 0.8;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .cst-section span{
+        margin: 0% auto 10%;
+    }
+
+    .cst-img img{
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+}
+
+@media (min-width:992.01px) and (max-width:1200px) {
+
+    .cst-section{
+        text-align: center;
+    }
+
+    .cst-section p{
+        color: #28282e;
+        opacity: 0.8;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .cst-section span{
+        margin: 0% auto 10%;
+    }
+
+    .cst-img img{
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+}
+
+
+/* annother section */
+
+.another-section{
+    background-color: #28282e;
+    padding: 6% 0;
+}
+
+.cst-section-two h1{
+    width: 100%;
+    font-size: 35px;
+    color: white;
+    margin-bottom: 5%;
+    font-weight: 600;
+}
+.cst-section-two span{
+    display: block;
+    width: 10%;
+    border-bottom: 1px solid white;
+    margin: 0% 0% 10%;
+}
+.cst-section-two p{
+    color: white;
+    opacity: 0.8;
+    width: 85%;
+    font-size: 14px;
+    margin-bottom: 10%;
+}
+.cst-section-two a{
+    display: inline-block;
+    border: 1px solid white;
+    width: 30%;
+    padding: 2%;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+}
+
+.cst-img--two img{
+    width: 100%;
+    display: block;
+    margin-top: 12%;
+}
+
+/* annother section media */
+
+@media (max-width: 500px){
+
+    .cst-section-two{
+        text-align: center;
+    }
+
+    .cst-section-two span{
+        margin: 0% auto 10%;
+    }
+
+    .cst-section-two p{
+        margin: 0 auto 10%;
+    }
+
+}
+
+@media (min-width: 501px) and (max-width: 766px) {
+
+    .cst-section-two{
+        text-align: center;
+    }
+
+    .cst-section-two span{
+        margin: 0% auto 10%;
+    }
+
+    .cst-section-two p{
+        margin: 0 auto 10%;
+    }
+
+}
+
+@media (min-width: 768.01px) and (max-width: 992px) {
+    
+    .cst-section-two{
+        text-align: center;
+    }
+
+    .cst-section-two span{
+        margin: 0% auto 10%;
+    }
+
+    .cst-section-two p{
+        margin: 0 auto 10%;
+    }
+
+}
+
+@media (min-width:992.01px) and (max-width:1200px) {
+
+    .cst-section-two{
+        text-align: center;
+    }
+
+    .cst-section-two span{
+        margin: 0% auto 10%;
+    }
+
+    .cst-section-two p{
+        margin: 0 auto 10%;
+    }
+}
+
+
+/* footer */
+.footer-section{
+    background-color: #ef4035;
+}
+
+.content p{
+    text-align: center;
+    margin-top: 15px;
+}
